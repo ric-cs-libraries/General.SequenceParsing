@@ -1,0 +1,16 @@
+rien
+
+   <person>
+    <nom>PYT</nom>
+
+    <prenom>Rick</prenom>
+    <interets>
+      <item1>Dév!</item1>
+      <item2>Siq</item2>
+      <item3>
+        <sous-item30><sous-item30>AA</sous-item30></sous-item30>
+        <sous-item31>BB</sous-item31>
+        <sous-item32>CC</sous-item32>
+      </item3>
+    </interets>
+   </person> niete

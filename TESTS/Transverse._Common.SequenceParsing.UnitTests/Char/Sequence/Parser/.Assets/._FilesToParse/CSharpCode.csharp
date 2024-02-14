@@ -1,0 +1,43 @@
+﻿//J'ai mis une extension .csharp à ce fichier, pour ne pas que Visual Studio cherche à me la compiler.
+
+using System.Diagnostics;
+
+namespace SequenceParsing.Domain._Generic;
+
+
+public class MyClass
+{
+    public string? type; //Permet de mieux différencier/catégoriser les Block (et aide au debuggage (d'où le "_" pour apparition en 1er (ordre alpha.))
+
+
+    /*protected MyClass(
+        string type,
+        BlockDelimiter<TTT> startDelimiter, BlockDelimiter<TTT> endDelimiter, 
+        Blocks<TTT>? expectedInnerBlocks = null, bool canBeNestedWithinItSelf = false)
+    {
+        Type = type;
+        StartDelimiter = startDelimiter;
+        EndDelimiter = endDelimiter;
+        ExpectedInnerBlocks = expectedInnerBlocks;*/
+
+        if (canBeNestedWithinItSelf)
+        {
+          if (true)
+          {          
+            AutoNest();
+          }
+        }
+    //}
+
+    //canBeNestedWithinItSelf => si true, alors on envisage que le présent Block soit trouvable à l'intérieur de lui-même. (Ex. : if() { if() { if() {...} } })
+    /*public static Block<TTT> Create(
+        string type,
+        BlockDelimiter<TTT> startDelimiter, BlockDelimiter<TTT> endDelimiter,
+        Blocks<TTT>? expectedInnerBlocks = null, bool canBeNestedWithinItSelf = false)
+    {
+        Block<TTT> result = new Block<TTT>(type, startDelimiter, endDelimiter, expectedInnerBlocks, canBeNestedWithinItSelf);
+        return result;
+    }*/
+
+
+}

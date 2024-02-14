@@ -1,0 +1,3 @@
+
+<tag1>Bonjour</tag1>
+<tag2><monotag1 attr1="val1Tag1"  attr2="val2Tag1"/><tag21>HelloTag21</tag21><tag22><tag220><monotag2 attr12="val1Tag2"  attr22="val2Tag2"/></tag220></tag22></tag2>
