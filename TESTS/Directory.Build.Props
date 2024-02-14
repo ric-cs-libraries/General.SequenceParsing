@@ -1,0 +1,6 @@
+﻿<Project>
+  
+  <Import Project="../Directory.Build.Props" /><!-- Ne peut le détecter tout seul, car on est déjà dans un Directory.Build.Props -->
+  <Import Project="$(MyCommonCsProjTestsPath)/._BasicSettings.csproj" />
+
+</Project>

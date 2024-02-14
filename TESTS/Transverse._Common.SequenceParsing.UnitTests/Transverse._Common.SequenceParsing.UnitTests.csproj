@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<UnitTestsPath>$(SolutionDir)\TESTS\Transverse._Common.SequenceParsing.UnitTests</UnitTestsPath>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<ProjectReference Include="../../_SRC/Transverse._Common.SequenceParsing/Transverse._Common.SequenceParsing.csproj" />
+
+		<Content Include="$(UnitTestsPath)\Char\Sequence\Parser\.Assets\**" CopyToOutputDirectory="PreserveNewest">
+			<Link>._Assets/%(RecursiveDir)%(Filename)%(Extension)</Link>
+		</Content>
+		
+	</ItemGroup>
+
+
+</Project>
