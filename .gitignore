@@ -1,0 +1,12 @@
+#
+.vs
+bin
+obj
+
+#
+*NCrunch*
+
+#
+*.lnk
+*Test?Result?
+*Archive*
