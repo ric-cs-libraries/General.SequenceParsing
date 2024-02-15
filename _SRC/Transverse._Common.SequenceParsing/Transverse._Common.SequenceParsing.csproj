@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 
-		<MyPackageMajorVersion>1</MyPackageMajorVersion>
+		<MyPackageMajorVersion>$(MyTransverseCommonSequenceParsing_MajorVersion)</MyPackageMajorVersion>
 		<MyPackageMinorVersion>0</MyPackageMinorVersion>
 		<MyPackagePatchVersion>0</MyPackagePatchVersion>
 
@@ -14,7 +14,7 @@
 	<Import Project="$(MyCommonCsProjSrcPath)/SetVersions.csproj" /><!-- Affectation de <PackageVersion> et <Version> -->
 
 	<ItemGroup>
-		<PackageReference Include="Transverse._Common.General.Basics" Version="1.$(MyDependenciesVersionWildcard)"/>
+		<PackageReference Include="Transverse._Common.General.Basics" Version="$(MyTransverseCommonGeneralBasics_MajorVersion).$(MyDependenciesVersionWildcard)"/>
 	</ItemGroup>
 	
 </Project>
