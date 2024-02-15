@@ -14,7 +14,7 @@
 	<Import Project="$(MyCommonCsProjSrcPath)/SetVersions.csproj" /><!-- Affectation de <PackageVersion> et <Version> -->
 
 	<ItemGroup>
-		<PackageReference Include="Transverse._Common.General.Basics" Version="1.*-*"/>
+		<PackageReference Include="Transverse._Common.General.Basics" Version="1.$(MyDependenciesVersionWildcard)"/>
 	</ItemGroup>
 	
 </Project>
