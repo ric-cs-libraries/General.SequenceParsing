@@ -3,8 +3,7 @@ using Xunit;
 
 using Transverse._Common.SequenceParsing.Generic;
 using Transverse._Common.SequenceParsing.Char;
-using System.Text.RegularExpressions;
-using System.Runtime.Serialization;
+
 
 namespace Transverse._Common.SequenceParsing.UnitTests.Char;
 
@@ -19,7 +18,7 @@ public class CharSequenceParserTests
     }
 
     [Fact]
-    public void Parse_WhenCalled_ShouldReturnTheCorrecteParseResult_BasicString1()
+    public void Parse_WhenCalled_ShouldReturnTheCorrectParseResult_BasicString1()
     {
         //--- Arrange ---
         string stringToParse = "xyzAAwktAAFbzBBejAA123AAF567BBFrien";
@@ -51,7 +50,7 @@ public class CharSequenceParserTests
 
 
     [Fact]
-    public void Parse_WhenCalled_ShouldReturnTheCorrecteParseResult_From_BasicString2()
+    public void Parse_WhenCalled_ShouldReturnTheCorrectParseResult_From_BasicString2()
     {
         //--- Arrange ---
         string stringToParse = "xyzAA012wktAaf7ZbzBBPejAA432123AAF8x567Bf .rien";
@@ -83,7 +82,7 @@ public class CharSequenceParserTests
 
 
     [Fact]
-    public void Parse_WhenStartDelimiterIdemAsEndDelimiterAndNotSelfNestable_ShouldReturnTheCorrecteParseResult()
+    public void Parse_WhenStartDelimiterIdemAsEndDelimiterAndNotSelfNestable_ShouldReturnTheCorrectParseResult()
     {
         //--- Arrange ---
         string stringToParse = "xyAAzAA123AAAbzeAA456AAjAA123F567";
@@ -110,7 +109,7 @@ public class CharSequenceParserTests
     }
 
     [Fact]
-    public void Parse_WhenCalled_ShouldReturnTheCorrecteParseResult_From_CSharpCodeAsString()
+    public void Parse_WhenCalled_ShouldReturnTheCorrectParseResult_From_CSharpCodeAsString()
     {
         //--- Arrange ---
         string stringToParse = """
@@ -155,7 +154,7 @@ public class CharSequenceParserTests
     }
 
     [Fact]
-    public void Parse_WhenCalled_ShouldReturnTheCorrecteParseResult_From_CSharpCodeFile()
+    public void Parse_WhenCalled_ShouldReturnTheCorrectParseResult_From_CSharpCodeFile()
     {
         //--- Arrange ---
         string stringToParse = File.ReadAllText($"{Fixtures.Pathes.FilesToParse_SubPath}/CSharpCode.csharp");
@@ -176,7 +175,7 @@ public class CharSequenceParserTests
     }
 
     [Fact]
-    public void Parse_WhenCalled_ShouldReturnTheCorrecteParseResult_From_XMLFile()
+    public void Parse_WhenCalled_ShouldReturnTheCorrectParseResult_From_XMLFile()
     {
         //--- Arrange ---
         string stringToParse = File.ReadAllText($"{Fixtures.Pathes.FilesToParse_SubPath}/XML.xml");
@@ -197,7 +196,7 @@ public class CharSequenceParserTests
     }
 
     [Fact]
-    public void Parse_WhenCalled_ShouldReturnTheCorrecteParseResult_From_XMLFileWithAttributes()
+    public void Parse_WhenCalled_ShouldReturnTheCorrectParseResult_From_XMLFileWithAttributes()
     {
         //--- Arrange ---
         string stringToParse = File.ReadAllText($"{Fixtures.Pathes.FilesToParse_SubPath}/XML_WithAttributes.xml");
@@ -218,7 +217,7 @@ public class CharSequenceParserTests
     }
 
     [Fact]
-    public void Parse_WhenCalled_ShouldReturnTheCorrecteParseResult_From_LPDP_MyPoemsList()
+    public void Parse_WhenCalled_ShouldReturnTheCorrectParseResult_From_LPDP_MyPoemsList()
     {
         //--- Arrange ---
         string stringToParse = File.ReadAllText($"{Fixtures.Pathes.FilesToParse_SubPath}/LPDP_MyPoemsList.html", Encoding.Latin1);
@@ -240,7 +239,7 @@ public class CharSequenceParserTests
 
 
     [Fact] //ATTENTION prend 22sec ! (167 poèmes)
-    public void Parse_WhenCalled_ShouldReturnTheCorrecteParseResult_From_LPDP_Marco_PoemsList()
+    public void Parse_WhenCalled_ShouldReturnTheCorrectParseResult_From_LPDP_Marco_PoemsList()
     {
         Assert.True(true); return;
         //--- Arrange ---
@@ -261,7 +260,7 @@ public class CharSequenceParserTests
     }
 
     [Fact] //ATTENTION prend 10mn !!! (767 poèmes)
-    public void Parse_WhenCalled_ShouldReturnTheCorrecteParseResult_From_LPDP_Mystic4Ever_PoemsList()
+    public void Parse_WhenCalled_ShouldReturnTheCorrectParseResult_From_LPDP_Mystic4Ever_PoemsList()
     {
         Assert.True(true); return;
         //--- Arrange ---
