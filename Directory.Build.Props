@@ -1,5 +1,5 @@
 <Project>
 
-  <Import Project="../._Transverse.csproj" />
+  <Import Project="../._General.csproj" />
   
 </Project>
