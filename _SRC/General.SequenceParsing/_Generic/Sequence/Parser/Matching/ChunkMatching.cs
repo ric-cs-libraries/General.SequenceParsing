@@ -38,7 +38,7 @@ public record ChunkMatching<TTT>
     {
         List<string> state = new()
         {
-            $"{GetType().GetSimpleName()}: StartIndex={StartIndex}",
+            $"{GetType().GetName_()}: StartIndex={StartIndex}",
             $"EndIndex={EndIndex}",
             $"Content{GetContentAsString()}"
         };

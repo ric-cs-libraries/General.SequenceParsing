@@ -34,7 +34,7 @@ public abstract class TreeElement<TTT>
             $"ParentId={ParentId}", 
             $"Depth={Depth}"
         };
-        string result = $"{GetType().GetSimpleName()}: "+string.Join("; ", state);
+        string result = $"{GetType().GetName_()}: "+string.Join("; ", state);
         return result;
     }
 }

@@ -11,6 +11,7 @@ internal class Fixtures
     {
         private const string Assets_SubPath = "._Assets";
         internal const string ParseResults_AsTxtFiles_SubPath = $"{Assets_SubPath}/_ParseResults_AsTxtFiles";
+        //internal const string ParseResults_AsTxtFiles_SubPath = $"T:/_ParseResults_AsTxtFiles";
         internal const string FilesToParse_SubPath = $"{Assets_SubPath}/._FilesToParse";
     }
 

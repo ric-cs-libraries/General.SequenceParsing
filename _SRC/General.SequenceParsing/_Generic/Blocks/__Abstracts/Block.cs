@@ -61,7 +61,7 @@ public abstract record Block<TTT>
     {
         List<string> state = new()
         {
-            $"{GetType().GetSimpleName()}: type='{Type}'",
+            $"{GetType().GetName_()}: type='{Type}'",
             $"StartDelimiter={StartDelimiter.GetStateAsString()}",
             $"EndDelimiter={EndDelimiter.GetStateAsString()}",
             $"SelfNestable={SelfNestable}",

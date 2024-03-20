@@ -101,9 +101,9 @@ public record CharBlockDelimiter : BlockDelimiter<char>
     {
         List<string> state = new()
         {
-            $"{GetType().GetSimpleName()}: Delimiter='{Delimiter}'",
+            $"{GetType().GetName_()}: Delimiter='{Delimiter}'",
             $"CaseSensitive={CaseSensitive}",
-            $"StringMatchingEvaluator={StringMatchingEvaluator.GetType().GetSimpleName()}"
+            $"StringMatchingEvaluator={StringMatchingEvaluator.GetType().GetName_()}"
         };
         string result = "{" + string.Join("; ", state) + "}";
         return result;

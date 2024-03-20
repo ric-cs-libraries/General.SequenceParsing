@@ -28,8 +28,8 @@ public record Blocks<TTT>
     {
         List<string> state = new()
         {
-            //$"{GetType().GetSimpleName()}: ["+string.Join(", ",List.Select(b => b.GetStateAsString()))+"]"
-            $"{GetType().GetSimpleName()}: {GetElementsAsStringsList()}"
+            //$"{GetType().GetName_()}: ["+string.Join(", ",List.Select(b => b.GetStateAsString()))+"]"
+            $"{GetType().GetName_()}: {GetElementsAsStringsList()}"
         };
         
         string result = "{" + string.Join("; ", state) + "}";

@@ -19,7 +19,7 @@ public class ParseResult<TTT>
     {
         List<string> state = new()
         {
-            $"{GetType().GetSimpleName()}: RootNode={RootNode.GetStateAsString()}"
+            $"{GetType().GetName_()}: RootNode={RootNode.GetStateAsString()}"
         };
         string result = "{" + string.Join("; ", state) + "}";
         return result;

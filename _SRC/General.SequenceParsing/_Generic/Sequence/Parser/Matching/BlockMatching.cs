@@ -40,7 +40,7 @@ internal record class BlockMatching<TTT>
     {
         List<string> state = new()
         {
-            $"{GetType().GetSimpleName()}: ForStartDelimiter={ForStartDelimiter}",
+            $"{GetType().GetName_()}: ForStartDelimiter={ForStartDelimiter}",
             $"Block={Block.GetStateAsString()}",
             $"ChunkMatching={ChunkMatching.GetStateAsString()}"
         };

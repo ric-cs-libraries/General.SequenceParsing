@@ -1,9 +1,10 @@
 ﻿using System.Text.RegularExpressions;
+
 using Xunit;
 
-using General.SequenceParsing.Generic;
+
 using General.SequenceParsing.Char;
-using General.Basics.Exceptions;
+using General.Basics.ErrorHandling;
 
 
 namespace General.SequenceParsing.UnitTests.Char;

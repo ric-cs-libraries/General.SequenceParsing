@@ -28,7 +28,7 @@ public record Chunk<TTT>
     {
         List<string> state = new()
         {
-            $"{GetType().GetSimpleName()}: StartIndex={StartIndex}",
+            $"{GetType().GetName_()}: StartIndex={StartIndex}",
             $"Content({Content.Count})='{ToString()}'"
         };
         string result = "{" + string.Join("; ", state) + "}";

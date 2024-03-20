@@ -1,6 +1,5 @@
 ﻿using System.Diagnostics;
-using System.Linq;
-using System.Text.RegularExpressions;
+
 using General.Basics.Extensions;
 
 namespace General.SequenceParsing.Generic;
@@ -52,7 +51,7 @@ public class Sequence<TTT>
     {
         List<string> state = new()
         {
-            $"{GetType().GetSimpleName()}: Content({Content.Count})='{ToString()}'",
+            $"{GetType().GetName_()}: Content({Content.Count})='{ToString()}'",
         };
         string result = "{" + string.Join("; ", state) + "}";
         return result;

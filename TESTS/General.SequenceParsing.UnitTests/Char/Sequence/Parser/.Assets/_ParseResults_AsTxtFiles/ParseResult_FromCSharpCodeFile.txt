@@ -1,20 +1,20 @@
-{ParseResult: RootNode={RootNode: IsClosed=True; Elements(4)=[{Node: Id=1; ParentId=0; Depth=0; Block={CharBlock: type='Comm.MonoLig.'; StartDelimiter={CharBlockDelimiter: Delimiter='//'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; EndDelimiter={CharBlockDelimiter: Delimiter='
-'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=False; ExpectedInnerBlocks(0)}; ChunkStartMatching={ChunkMatching: StartIndex=0; EndIndex=1; Content(2)=`//`}; ChunkEndMatching={ChunkMatching: StartIndex=102; EndIndex=103; Content(2)=`
-`}; IsClosed=True; Elements(1)=[{Leaf: Id=2; ParentId=1; Depth=1; StartIndex=2; EndIndex=101; Data(100)='J'ai mis une extension .csharp à ce fichier, pour ne pas que Visual Studio cherche à me la compiler.'}]},{Leaf: Id=3; ParentId=0; Depth=0; StartIndex=104; EndIndex=189; Data(86)='
+{ParseResult<Char>: RootNode={RootNode<Char>: IsClosed=True; Elements(4)=[{Node<Char>: Id=1; ParentId=0; Depth=0; Block={CharBlock: type='Comm.MonoLig.'; StartDelimiter={CharBlockDelimiter: Delimiter='//'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; EndDelimiter={CharBlockDelimiter: Delimiter='
+'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=False; ExpectedInnerBlocks(0)}; ChunkStartMatching={ChunkMatching<Char>: StartIndex=0; EndIndex=1; Content(2)=`//`}; ChunkEndMatching={ChunkMatching<Char>: StartIndex=102; EndIndex=103; Content(2)=`
+`}; IsClosed=True; Elements(1)=[{Leaf<Char>: Id=2; ParentId=1; Depth=1; StartIndex=2; EndIndex=101; Data(100)='J'ai mis une extension .csharp à ce fichier, pour ne pas que Visual Studio cherche à me la compiler.'}]},{Leaf<Char>: Id=3; ParentId=0; Depth=0; StartIndex=104; EndIndex=189; Data(86)='
 using System.Diagnostics;
 
 namespace SequenceParsing.Domain._Generic;
 
 
-public '},{Node: Id=4; ParentId=0; Depth=0; Block={CharBlock: type='CLASS {...}'; StartDelimiter={CharBlockDelimiter: Delimiter='class[ ]*[A-Z]+(
+public '},{Node<Char>: Id=4; ParentId=0; Depth=0; Block={CharBlock: type='CLASS {...}'; StartDelimiter={CharBlockDelimiter: Delimiter='class[ ]*[A-Z]+(
 |[ ])*[{](
-|[ ])*'; CaseSensitive=False; StringMatchingEvaluator=StringMatchingEvaluatorByRegExp}; EndDelimiter={CharBlockDelimiter: Delimiter='}'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=False; ExpectedInnerBlocks(3)}; ChunkStartMatching={ChunkMatching: StartIndex=190; EndIndex=211; Content(22)=`class MyClass
+|[ ])*'; CaseSensitive=False; StringMatchingEvaluator=StringMatchingEvaluatorByRegExp}; EndDelimiter={CharBlockDelimiter: Delimiter='}'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=False; ExpectedInnerBlocks(3)}; ChunkStartMatching={ChunkMatching<Char>: StartIndex=190; EndIndex=211; Content(22)=`class MyClass
 {
-    `}; ChunkEndMatching={ChunkMatching: StartIndex=1460; EndIndex=1460; Content(1)=`}`}; IsClosed=True; Elements(13)=[{Leaf: Id=5; ParentId=4; Depth=1; StartIndex=212; EndIndex=232; Data(21)='public string? type; '},{Node: Id=6; ParentId=4; Depth=1; Block={CharBlock: type='Comm.MonoLig.'; StartDelimiter={CharBlockDelimiter: Delimiter='//'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; EndDelimiter={CharBlockDelimiter: Delimiter='
-'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=False; ExpectedInnerBlocks(0)}; ChunkStartMatching={ChunkMatching: StartIndex=233; EndIndex=234; Content(2)=`//`}; ChunkEndMatching={ChunkMatching: StartIndex=359; EndIndex=360; Content(2)=`
-`}; IsClosed=True; Elements(1)=[{Leaf: Id=7; ParentId=6; Depth=2; StartIndex=235; EndIndex=358; Data(124)='Permet de mieux différencier/catégoriser les Block (et aide au debuggage (d'où le "_" pour apparition en 1er (ordre alpha.))'}]},{Leaf: Id=8; ParentId=4; Depth=1; StartIndex=361; EndIndex=368; Data(8)='
+    `}; ChunkEndMatching={ChunkMatching<Char>: StartIndex=1460; EndIndex=1460; Content(1)=`}`}; IsClosed=True; Elements(13)=[{Leaf<Char>: Id=5; ParentId=4; Depth=1; StartIndex=212; EndIndex=232; Data(21)='public string? type; '},{Node<Char>: Id=6; ParentId=4; Depth=1; Block={CharBlock: type='Comm.MonoLig.'; StartDelimiter={CharBlockDelimiter: Delimiter='//'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; EndDelimiter={CharBlockDelimiter: Delimiter='
+'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=False; ExpectedInnerBlocks(0)}; ChunkStartMatching={ChunkMatching<Char>: StartIndex=233; EndIndex=234; Content(2)=`//`}; ChunkEndMatching={ChunkMatching<Char>: StartIndex=359; EndIndex=360; Content(2)=`
+`}; IsClosed=True; Elements(1)=[{Leaf<Char>: Id=7; ParentId=6; Depth=2; StartIndex=235; EndIndex=358; Data(124)='Permet de mieux différencier/catégoriser les Block (et aide au debuggage (d'où le "_" pour apparition en 1er (ordre alpha.))'}]},{Leaf<Char>: Id=8; ParentId=4; Depth=1; StartIndex=361; EndIndex=368; Data(8)='
 
-    '},{Node: Id=9; ParentId=4; Depth=1; Block={CharBlock: type='/*...*/'; StartDelimiter={CharBlockDelimiter: Delimiter='/*'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; EndDelimiter={CharBlockDelimiter: Delimiter='*/'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=False; ExpectedInnerBlocks(0)}; ChunkStartMatching={ChunkMatching: StartIndex=369; EndIndex=370; Content(2)=`/*`}; ChunkEndMatching={ChunkMatching: StartIndex=740; EndIndex=741; Content(2)=`*/`}; IsClosed=True; Elements(1)=[{Leaf: Id=10; ParentId=9; Depth=2; StartIndex=371; EndIndex=739; Data(369)='protected MyClass(
+    '},{Node<Char>: Id=9; ParentId=4; Depth=1; Block={CharBlock: type='/*...*/'; StartDelimiter={CharBlockDelimiter: Delimiter='/*'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; EndDelimiter={CharBlockDelimiter: Delimiter='*/'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=False; ExpectedInnerBlocks(0)}; ChunkStartMatching={ChunkMatching<Char>: StartIndex=369; EndIndex=370; Content(2)=`/*`}; ChunkEndMatching={ChunkMatching<Char>: StartIndex=740; EndIndex=741; Content(2)=`*/`}; IsClosed=True; Elements(1)=[{Leaf<Char>: Id=10; ParentId=9; Depth=2; StartIndex=371; EndIndex=739; Data(369)='protected MyClass(
         string type,
         BlockDelimiter<TTT> startDelimiter, BlockDelimiter<TTT> endDelimiter, 
         Blocks<TTT>? expectedInnerBlocks = null, bool canBeNestedWithinItSelf = false)
@@ -22,33 +22,33 @@ public '},{Node: Id=4; ParentId=0; Depth=0; Block={CharBlock: type='CLASS {...}'
         Type = type;
         StartDelimiter = startDelimiter;
         EndDelimiter = endDelimiter;
-        ExpectedInnerBlocks = expectedInnerBlocks;'}]},{Leaf: Id=11; ParentId=4; Depth=1; StartIndex=742; EndIndex=753; Data(12)='
+        ExpectedInnerBlocks = expectedInnerBlocks;'}]},{Leaf<Char>: Id=11; ParentId=4; Depth=1; StartIndex=742; EndIndex=753; Data(12)='
 
-        '},{Node: Id=12; ParentId=4; Depth=1; Block={CharBlock: type='IF{...}'; StartDelimiter={CharBlockDelimiter: Delimiter='if[ ]*[(](.*)[)](
+        '},{Node<Char>: Id=12; ParentId=4; Depth=1; Block={CharBlock: type='IF{...}'; StartDelimiter={CharBlockDelimiter: Delimiter='if[ ]*[(](.*)[)](
 |[ ])*[{](
-|[ ])*'; CaseSensitive=False; StringMatchingEvaluator=StringMatchingEvaluatorByRegExp}; EndDelimiter={CharBlockDelimiter: Delimiter='}'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=True; ExpectedInnerBlocks(3)}; ChunkStartMatching={ChunkMatching: StartIndex=754; EndIndex=804; Content(51)=`if (canBeNestedWithinItSelf)
+|[ ])*'; CaseSensitive=False; StringMatchingEvaluator=StringMatchingEvaluatorByRegExp}; EndDelimiter={CharBlockDelimiter: Delimiter='}'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=True; ExpectedInnerBlocks(3)}; ChunkStartMatching={ChunkMatching<Char>: StartIndex=754; EndIndex=804; Content(51)=`if (canBeNestedWithinItSelf)
         {
-          `}; ChunkEndMatching={ChunkMatching: StartIndex=885; EndIndex=885; Content(1)=`}`}; IsClosed=True; Elements(2)=[{Node: Id=13; ParentId=12; Depth=2; Block={CharBlock: type='IF{...}'; StartDelimiter={CharBlockDelimiter: Delimiter='if[ ]*[(](.*)[)](
+          `}; ChunkEndMatching={ChunkMatching<Char>: StartIndex=885; EndIndex=885; Content(1)=`}`}; IsClosed=True; Elements(2)=[{Node<Char>: Id=13; ParentId=12; Depth=2; Block={CharBlock: type='IF{...}'; StartDelimiter={CharBlockDelimiter: Delimiter='if[ ]*[(](.*)[)](
 |[ ])*[{](
-|[ ])*'; CaseSensitive=False; StringMatchingEvaluator=StringMatchingEvaluatorByRegExp}; EndDelimiter={CharBlockDelimiter: Delimiter='}'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=True; ExpectedInnerBlocks(3)}; ChunkStartMatching={ChunkMatching: StartIndex=805; EndIndex=850; Content(46)=`if (true)
+|[ ])*'; CaseSensitive=False; StringMatchingEvaluator=StringMatchingEvaluatorByRegExp}; EndDelimiter={CharBlockDelimiter: Delimiter='}'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=True; ExpectedInnerBlocks(3)}; ChunkStartMatching={ChunkMatching<Char>: StartIndex=805; EndIndex=850; Content(46)=`if (true)
           {          
-            `}; ChunkEndMatching={ChunkMatching: StartIndex=874; EndIndex=874; Content(1)=`}`}; IsClosed=True; Elements(1)=[{Leaf: Id=14; ParentId=13; Depth=3; StartIndex=851; EndIndex=873; Data(23)='AutoNest();
-          '}]},{Leaf: Id=15; ParentId=12; Depth=2; StartIndex=875; EndIndex=884; Data(10)='
-        '}]},{Leaf: Id=16; ParentId=4; Depth=1; StartIndex=886; EndIndex=891; Data(6)='
-    '},{Node: Id=17; ParentId=4; Depth=1; Block={CharBlock: type='Comm.MonoLig.'; StartDelimiter={CharBlockDelimiter: Delimiter='//'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; EndDelimiter={CharBlockDelimiter: Delimiter='
-'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=False; ExpectedInnerBlocks(0)}; ChunkStartMatching={ChunkMatching: StartIndex=892; EndIndex=893; Content(2)=`//`}; ChunkEndMatching={ChunkMatching: StartIndex=895; EndIndex=896; Content(2)=`
-`}; IsClosed=True; Elements(1)=[{Leaf: Id=18; ParentId=17; Depth=2; StartIndex=894; EndIndex=894; Data(1)='}'}]},{Leaf: Id=19; ParentId=4; Depth=1; StartIndex=897; EndIndex=902; Data(6)='
-    '},{Node: Id=20; ParentId=4; Depth=1; Block={CharBlock: type='Comm.MonoLig.'; StartDelimiter={CharBlockDelimiter: Delimiter='//'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; EndDelimiter={CharBlockDelimiter: Delimiter='
-'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=False; ExpectedInnerBlocks(0)}; ChunkStartMatching={ChunkMatching: StartIndex=903; EndIndex=904; Content(2)=`//`}; ChunkEndMatching={ChunkMatching: StartIndex=1058; EndIndex=1059; Content(2)=`
-`}; IsClosed=True; Elements(1)=[{Leaf: Id=21; ParentId=20; Depth=2; StartIndex=905; EndIndex=1057; Data(153)='canBeNestedWithinItSelf => si true, alors on envisage que le présent Block soit trouvable à l'intérieur de lui-même. (Ex. : if() { if() { if() {...} } })'}]},{Leaf: Id=22; ParentId=4; Depth=1; StartIndex=1060; EndIndex=1063; Data(4)='    '},{Node: Id=23; ParentId=4; Depth=1; Block={CharBlock: type='/*...*/'; StartDelimiter={CharBlockDelimiter: Delimiter='/*'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; EndDelimiter={CharBlockDelimiter: Delimiter='*/'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=False; ExpectedInnerBlocks(0)}; ChunkStartMatching={ChunkMatching: StartIndex=1064; EndIndex=1065; Content(2)=`/*`}; ChunkEndMatching={ChunkMatching: StartIndex=1452; EndIndex=1453; Content(2)=`*/`}; IsClosed=True; Elements(1)=[{Leaf: Id=24; ParentId=23; Depth=2; StartIndex=1066; EndIndex=1451; Data(386)='public static Block<TTT> Create(
+            `}; ChunkEndMatching={ChunkMatching<Char>: StartIndex=874; EndIndex=874; Content(1)=`}`}; IsClosed=True; Elements(1)=[{Leaf<Char>: Id=14; ParentId=13; Depth=3; StartIndex=851; EndIndex=873; Data(23)='AutoNest();
+          '}]},{Leaf<Char>: Id=15; ParentId=12; Depth=2; StartIndex=875; EndIndex=884; Data(10)='
+        '}]},{Leaf<Char>: Id=16; ParentId=4; Depth=1; StartIndex=886; EndIndex=891; Data(6)='
+    '},{Node<Char>: Id=17; ParentId=4; Depth=1; Block={CharBlock: type='Comm.MonoLig.'; StartDelimiter={CharBlockDelimiter: Delimiter='//'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; EndDelimiter={CharBlockDelimiter: Delimiter='
+'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=False; ExpectedInnerBlocks(0)}; ChunkStartMatching={ChunkMatching<Char>: StartIndex=892; EndIndex=893; Content(2)=`//`}; ChunkEndMatching={ChunkMatching<Char>: StartIndex=895; EndIndex=896; Content(2)=`
+`}; IsClosed=True; Elements(1)=[{Leaf<Char>: Id=18; ParentId=17; Depth=2; StartIndex=894; EndIndex=894; Data(1)='}'}]},{Leaf<Char>: Id=19; ParentId=4; Depth=1; StartIndex=897; EndIndex=902; Data(6)='
+    '},{Node<Char>: Id=20; ParentId=4; Depth=1; Block={CharBlock: type='Comm.MonoLig.'; StartDelimiter={CharBlockDelimiter: Delimiter='//'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; EndDelimiter={CharBlockDelimiter: Delimiter='
+'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=False; ExpectedInnerBlocks(0)}; ChunkStartMatching={ChunkMatching<Char>: StartIndex=903; EndIndex=904; Content(2)=`//`}; ChunkEndMatching={ChunkMatching<Char>: StartIndex=1058; EndIndex=1059; Content(2)=`
+`}; IsClosed=True; Elements(1)=[{Leaf<Char>: Id=21; ParentId=20; Depth=2; StartIndex=905; EndIndex=1057; Data(153)='canBeNestedWithinItSelf => si true, alors on envisage que le présent Block soit trouvable à l'intérieur de lui-même. (Ex. : if() { if() { if() {...} } })'}]},{Leaf<Char>: Id=22; ParentId=4; Depth=1; StartIndex=1060; EndIndex=1063; Data(4)='    '},{Node<Char>: Id=23; ParentId=4; Depth=1; Block={CharBlock: type='/*...*/'; StartDelimiter={CharBlockDelimiter: Delimiter='/*'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; EndDelimiter={CharBlockDelimiter: Delimiter='*/'; CaseSensitive=True; StringMatchingEvaluator=StringMatchingEvaluatorByEquality}; SelfNestable=False; ExpectedInnerBlocks(0)}; ChunkStartMatching={ChunkMatching<Char>: StartIndex=1064; EndIndex=1065; Content(2)=`/*`}; ChunkEndMatching={ChunkMatching<Char>: StartIndex=1452; EndIndex=1453; Content(2)=`*/`}; IsClosed=True; Elements(1)=[{Leaf<Char>: Id=24; ParentId=23; Depth=2; StartIndex=1066; EndIndex=1451; Data(386)='public static Block<TTT> Create(
         string type,
         BlockDelimiter<TTT> startDelimiter, BlockDelimiter<TTT> endDelimiter,
         Blocks<TTT>? expectedInnerBlocks = null, bool canBeNestedWithinItSelf = false)
     {
         Block<TTT> result = new Block<TTT>(type, startDelimiter, endDelimiter, expectedInnerBlocks, canBeNestedWithinItSelf);
         return result;
-    }'}]},{Leaf: Id=25; ParentId=4; Depth=1; StartIndex=1454; EndIndex=1459; Data(6)='
+    }'}]},{Leaf<Char>: Id=25; ParentId=4; Depth=1; StartIndex=1454; EndIndex=1459; Data(6)='
 
 
-'}]},{Leaf: Id=26; ParentId=0; Depth=0; StartIndex=1461; EndIndex=1462; Data(2)='
+'}]},{Leaf<Char>: Id=26; ParentId=0; Depth=0; StartIndex=1461; EndIndex=1462; Data(2)='
 '}]; ExpectedInnerBlocks(4)}}

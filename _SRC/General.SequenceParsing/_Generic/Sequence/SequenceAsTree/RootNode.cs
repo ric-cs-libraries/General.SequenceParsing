@@ -51,7 +51,7 @@ public class RootNode<TTT> : Node<TTT>
     {
         List<string> state = new()
         {
-            $"{GetType().GetSimpleName()}: IsClosed={IsClosed}",
+            $"{GetType().GetName_()}: IsClosed={IsClosed}",
             $"Elements({Elements.Count})=[{string.Join(",",Elements.Select(te=>te.GetStateAsString()))}]",
             $"ExpectedInnerBlocks({ExpectedInnerBlocks?.List.Count ?? 0})"
         };

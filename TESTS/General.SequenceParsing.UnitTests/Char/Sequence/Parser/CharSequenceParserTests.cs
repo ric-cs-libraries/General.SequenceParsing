@@ -1,5 +1,7 @@
 using System.Text;
+
 using Xunit;
+
 
 using General.SequenceParsing.Generic;
 using General.SequenceParsing.Char;
